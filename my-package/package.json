@@ -4,14 +4,11 @@
     "description": "📦 github package tutorial",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "files": [
-        "index.js"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/javeedambu/publish-package-github.git"
+        "url": "git+https://github.com/javeedambu/publish-package-github.git"
     },
     "keywords": [
         "npm",
@@ -19,11 +16,7 @@
         "package",
         "registry"
     ],
-    "author": {
-        "name": "Some Author",
-        "email": "someauthor@someemail.com",
-        "url": "https://someauthorsomeemail.com"
-    },
+    "author": "Some Author",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/javeedambu/publish-package-github/issues"
