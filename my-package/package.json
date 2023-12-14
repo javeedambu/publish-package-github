@@ -1,0 +1,32 @@
+{
+    "name": "@javeedambu/publish-package-github",
+    "version": "0.0.1",
+    "description": "📦 github package tutorial",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/javeedambu/publish-package-github.git"
+    },
+    "keywords": [
+        "npm",
+        "publish",
+        "package",
+        "registry"
+    ],
+    "author": {
+        "name": "Some Author",
+        "email": "someauthor@someemail.com",
+        "url": "https://someauthorsomeemail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/javeedambu/publish-package-github/issues"
+    },
+    "homepage": "https://github.com/javeedambu/publish-package-github#readme"
+}
