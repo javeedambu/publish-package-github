@@ -17,7 +17,6 @@
         "registry"
     ],
     "author": "Some Author",
-    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/javeedambu/publish-package-github/issues"
