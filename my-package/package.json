@@ -1,5 +1,5 @@
 {
-    "name": "publish-package-github",
+    "name": "@javeedambu/publish-package-github",
     "version": "0.0.1",
     "description": "📦 github package tutorial",
     "main": "index.js",
