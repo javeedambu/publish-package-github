@@ -12,8 +12,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           registry-url: https://npm.pkg.github.com
+          scope: '@javeedambu'
       - run: cat /home/runner/work/_temp/.npmrc
-      - run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+      #- run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
       - run: npm publish --registry=https://npm.pkg.github.com/
         working-directory: my-package
         env:
