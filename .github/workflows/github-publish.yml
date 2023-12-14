@@ -7,14 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 12
           registry-url: https://npm.pkg.github.com
       - name: publish
-        run: npm publish --access public
+        run: npm publish
         working-directory: my-package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
